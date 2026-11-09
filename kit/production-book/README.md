@@ -17,9 +17,11 @@ python3 <playbook>/kit/production-book/book.py new book --title "My film" --unit
 That makes `book/` in your project. Then:
 
 1. Write two or three sentences under "Now" in `book/BOOK.md`, and the look in `book/LOOK.md`.
-2. Log work as it happens, still from the project folder:
+2. Log work as it happens, still from the project folder. A version's output has to exist (`check` reports a current
+   version whose file is missing), so render it first; here an empty file stands in for the render:
 
    ```
+   mkdir -p out && touch out/s01_anim_v001_half.mp4
    python3 <playbook>/kit/production-book/book.py log version unit=S01 step=anim pass=rough \
        output=out/s01_anim_v001_half.mp4 summary="First pass" checked="watched at speed, half resolution"
    python3 <playbook>/kit/production-book/book.py log note unit=S01 version=s01_anim_v001 frames=f40-60 \
@@ -70,11 +72,13 @@ Nothing depends on the order of the records, their dates or their file names:
 
 - **The current version** of a unit and step is the one with the highest number. Versions are named
   `{unit}_{step}_v###` (`s05_anim_v003`), never reused, and `log` numbers them for you.
-- **A version is approved** when an approval record names it, with the director's words, how they were given (the
-  medium) and the date. A newer version is simply not approved yet; the front page shows the last approved one beside
-  it.
-- **A note is open** until a record with its id closes it (`state: closed`, `parked` or `wontfix`). Closed stays
-  closed: `log` refuses to reopen a note, and a new note gets a new id (`log` numbers notes too, `N-015`).
+- **A version is approved** when an approval record names it, with the director's words, the director as `by`, how
+  the words were given (the medium) and the date. `log` never fills in `by` for an approval or a decision: whoever runs
+  the command records it; only the director gives it. A newer version is simply not approved yet; the front page shows
+  the last approved one beside it.
+- **A note is open** until a record with its id closes it (`state: closed`, `parked` or `wontfix`):
+  `book.py log note id=N-001 state=closed` is enough. Closed stays closed: `log` refuses to reopen a note, and a new
+  note gets a new id (`log` numbers notes too, `N-015`). A note that names a version names one of its own unit's.
 
 ## The commands
 
@@ -85,7 +89,7 @@ Nothing depends on the order of the records, their dates or their file names:
 | `build` | regenerates the generated pages |
 | `status` | the front page in the terminal |
 | `check` | errors (exit 1): every record against the rules, a current version whose output is missing. Warnings: versions that don't say what was checked, notes open too long, pages out of date |
-| `close --inbox DIR` | writes the book's decisions and lessons as one proposal for the playbook's inbox, once |
+| `close --inbox DIR` | writes the book's lessons (notes of type `lesson`) as one proposal for the playbook's inbox, once; the director's decisions stay in the book, with the project |
 
 Every command takes `--book DIR` (default `book`) and `--by NAME` (default `$BOOK_BY`, then your login name);
 `log --help` lists every kind and its fields.

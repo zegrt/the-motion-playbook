@@ -1,6 +1,6 @@
 kind: approval
+by: director
 version: s01_anim_v002
 medium: review link
 quote: Yes, that's the hook.
 date: 2026-01-09T15:00
-by: director

@@ -5,7 +5,7 @@ write your profile.
 
 ## 1. Install it
 
-Get access from the maintainer and clone the repo. Commit as yourself: check `git config user.name` and
+Clone this repository, or your fork of it. Commit as yourself: check `git config user.name` and
 `git config user.email` in your clone. The folder is itself an agent skill: link it once into each agent's skills
 folder.
 
@@ -33,7 +33,7 @@ Copy [profiles/_template.md](profiles/_template.md) to `profiles/<your-name>.md`
 start small: a few lines you're sure of. It has two halves: **taste**, used when you direct, and **working style**,
 used when you run the session (how much the agent does on its own, when to show you work, your shorthand). It grows
 from the corrections you repeat: the agent proposes a line, and you approve it. Until it's in, agents use the house
-layer and the core. Send it the way you send a lesson (step 5): your profile is yours to approve.
+layer and the core. Keep it in your own copy: your profile is yours to approve, and none ship here.
 
 ## 3. Read these first
 
@@ -54,7 +54,7 @@ the agent should say so rather than pass general knowledge off as the playbook.
 
 Never edit the playbook's own files from project work. When something is learned (a correction you had to repeat, a
 tool quirk, a rule that misfired or was missing), the agent writes it as one file in `inbox/`. At the end of a project,
-send your inbox files as a pull request on a branch named `inbox/<your-name>-<date>`, or send the files to the
-maintainer. [inbox/README.md](inbox/README.md) has the format (it starts with who it's from), and how a proposal is
+send your inbox files as a pull request to this repository, on a branch named `inbox/<your-name>-<date>`.
+[inbox/README.md](inbox/README.md) has the format (it starts with who it's from), and how a proposal is
 reviewed, approved and merged: nothing reaches the playbook before that. Quote the words you rely on: your session
 logs stay yours, so the quotes in your proposals are the only record the playbook keeps.

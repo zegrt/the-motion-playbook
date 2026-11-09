@@ -8,8 +8,8 @@ on a newer build.
 - No reliable speed slider on v4. Set pace in the text: audio tags such as `[brisk]` or `[rushed]`, punctuation, and
   `[pause]` only where a pause is wanted; tighten remaining gaps in the edit. Tag sets change between models; check the
   current docs.
-- Pronunciation: IPA between slashes (for example `/ˈmætɪks/` for a brand name) or a phonetic respelling. Confirm by
-  transcription and by ear.
+- Pronunciation: IPA between slashes (for example `/ˈsɒlvɪk/` for a made-up brand name, Solvik) or a phonetic
+  respelling. Confirm by transcription and by ear.
 - Generate the whole script in one generation with clear pauses between lines, then cut it into takes
   ([sound.ai-one-take](../craft/sound-and-vo.md)).
 - Choose WAV/PCM output when the plan allows; the default download can be MP3 (44.1 kHz, 128 kbps mono). The download name

@@ -31,7 +31,8 @@ book's checks still passed.
 
 - **Rule.** Name every published output by unit, step and a three-digit number (`s05_anim_v003`), never reuse a number,
 and let "current" and "last approved" be computed from the records, not typed. A delivery has its own ladder (v1, v1.1)
-and lists the versions it contains.
+and lists the versions it contains. The kit numbers a delivery like any other version (`d1_deliver_v001`): write its
+ladder and its contents by hand, in that version's summary.
 - **Why.** Four naming schemes on one production meant nobody could say which file was the latest, or which version a
 note or an approval was about.
 - **Basis.** measured (one case); the same convention as production trackers. **Scope.** any book. Keeping earlier
@@ -59,10 +60,10 @@ delivery, and a separate parked list grew up beside it.
 ### The cut is one record
 `id: book.cut` · principle 6
 
-- **Rule.** One cut list says which version of each unit plays where, in frames, and how each unit joins the next;
-  lengths, contractor packages and the list of what each delivery contains come from it. A delivery says whether the
-  timing changed since the
-one before, because a timing change makes every contractor's package out of date.
+- **Rule.** One cut list says which version of each unit plays where, in frames, and how each unit joins the next.
+Lengths, contractor packages and the list of what each delivery contains are read from it, by hand: the kit keeps the
+cut (`CUT.tsv`) as a file you write, and doesn't read it. A delivery says, in its summary, whether the timing changed
+since the one before, because a timing change makes every contractor's package out of date.
 - **Why.** A cut written in six places disagreed with itself, and trimming one shot silently broke the join into the
 next.
 - **Basis.** measured (one case). **Scope.** any linear piece. Versions with clean edit points are `story.edit-points`;
@@ -119,8 +120,9 @@ person who can judge it.
 
 - **Rule.** A book is project data: the client's names, prices and links stay in it, in the project. A house's facts (a
 character's rules, a palette, brand sources) live in the house layer, and the book links them. At the close, the book's
-decisions and lessons go to the playbook's inbox as one proposal: that's the [wrap](wrap.md)'s step 2 for the
-project, and closing the record is its step 9.
+lessons go to the playbook's inbox as one proposal: that's the [wrap](wrap.md)'s step 2 for the project, and closing the
+record is its step 9. The director's decisions stay in the book, since they hold the client's words; a decision that
+teaches craft goes in as a lesson, in your own words.
 - **Why.** Dependencies point one way: a project may depend on the playbook, never the reverse. Project facts mixed
 into shared rules is the drift the playbook exists to stop.
 - **Basis.** principle. **Scope.** any book.

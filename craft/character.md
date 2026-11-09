@@ -17,7 +17,7 @@ Principles behind this chapter: [1 Know what each moment is for](../CORE.md), [3
 parts, states, material and light, one isolated motion test), and only then place it in scenes.
 - **Why.** Designed inside scene stills, it becomes a new version in every scene; one concept's side view was simply
 wrong, with no sheet to check against.
-- **Basis.** director taste. **Scope.** any new character or hero prop.
+- **Basis.** taste (one director). **Scope.** any new character or hero prop.
 - **Check.** Front, side and back views exist before any shot shows the character turn.
 
 ### Act to the beats
@@ -28,7 +28,7 @@ different things to do. Key the face to those beats, never to leftover test keys
 one really left the character: its exit, its facing, its way of moving (if it hopped out, it hops back in).
 - **Why.** Three neighbouring mid shots "didn't do anything", and leftover rig-test keys made a curious character look
 angry.
-- **Basis.** director notes. **Scope.** any character in a cut sequence.
+- **Basis.** practice (one director's notes). **Scope.** any character in a cut sequence.
 - **Check.** One line per shot: what the character notices, feels or does. Two identical lines in a row is the fault.
 
 ### Build toward the destination
@@ -41,7 +41,7 @@ toward that hold. Review broad motion first, then expression and secondary respo
 - **Why.** An entrance built toward a known hold hands off cleanly. A part found late (an eye squeeze, a cheek puff) gets
 laid on top of finished motion instead of inside its phrase.
 - **Unless.** A one-shot, or an edit to existing motion: use the order that best protects the approved behaviour.
-- **Basis.** working practice on a set of reusable poses. **Scope.** any character, most of all reusable poses.
+- **Basis.** practice (one set of reusable poses). **Scope.** any character, most of all reusable poses.
 - **Check.** The entrance ends on the hold's values, and every new property has a neutral value in each hold and reset.
 
 ## Motion language
@@ -73,7 +73,7 @@ body, not already in the air) so its arc has travel. A recurring gesture is a qu
 raise on entrance, a slight wave in the loop; cheeks puffing about 6% on entrance, under 2% in the loop.
 - **Why.** A gesture that starts halfway has no energy to show. A big gesture on repeat tires the viewer and fights
 whatever the character sits beside.
-- **Basis.** director taste; approved across several poses. **Scope.** entrances and recurring or idle motion.
+- **Basis.** taste (one director, approved across several poses). **Scope.** entrances and recurring or idle motion.
 - **Check.** The hold-plus-gesture period differs from the blink's ([motion.cycles](motion-and-timing.md#connected-parts-share-a-phrase-independent-parts-dont)).
 
 ### Weight starts soft
@@ -94,7 +94,7 @@ a robot on robotic moves (single axes, hard stops, held poses). When two share a
 - **Why.** If both move the same way, the viewer loses who is who.
 - **Unless.** [motion.no-stop-start](motion-and-timing.md#no-stop-start) still holds for the soft character; the robot's
 stops are its language.
-- **Basis.** director taste. **Scope.** more than one character.
+- **Basis.** taste (one director). **Scope.** more than one character.
 
 ### Decide how far limbs stretch
 `id: character.stretch` · principles 1, 6
@@ -103,7 +103,7 @@ stops are its language.
 to reach something by accident; move the body or the object.
 - **Why.** In one design, arms twice their length lifting a trophy read as a celebratory reach; in another, a hand
 stretched toward a card looked weird. The style already set decides.
-- **Basis.** director taste, both cases. **Scope.** any character with limbs.
+- **Basis.** taste (one director, both cases). **Scope.** any character with limbs.
 
 ## Poses and holds
 
@@ -114,7 +114,7 @@ stretched toward a card looked weird. The style already set decides.
 slight drift, gaze staying on the prop), then leave at a matched speed. See [motion.hold-phases](motion-and-timing.md#arrive-stay-depart).
 - **Why.** Without a hold, lift and descent become one movement. About 0.3 s of drifting hold fixed a lift that
 "returned too immediately".
-- **Basis.** director notes; measured. **Scope.** any presented pose.
+- **Basis.** taste (one director's notes); measured. **Scope.** any presented pose.
 
 ### Confusion longer than the payoff
 `id: character.realisation` · principles 1, 3
@@ -122,7 +122,7 @@ slight drift, gaze staying on the prop), then leave at a matched speed. See [mot
 - **Rule.** In an overwhelmed-then-realisation beat, give the confusion more time than the payoff. One tuned example: eye
 darts about 0.11 s apart on a curve between a snap and a soft ease, then about 0.4 s of hold with a small body perk.
 - **Why.** Seven snaps read too fast, four soft moves too much, and a longer smile reads as "smiles and does nothing".
-- **Basis.** director notes, one film. **Scope.** any reaction beat.
+- **Basis.** taste (one director's notes, one film). **Scope.** any reaction beat.
 - **Check.** Retiming the beat moves its spoken word too ([motion.word-sync](motion-and-timing.md#land-on-the-word-not-the-time)).
 
 ## Rig, controls and pivots
@@ -182,7 +182,7 @@ the parent layout, the output frame. Don't shrink or slide a limb to fit; move t
 - **Rule.** A character meets a prop in front of the body, around chest to face height, not on top of the head or down
 by the feet. The prop may cross the face briefly in travel; the held pose shows the face.
 - **Why.** A catch above or below reads as the prop landing on the character.
-- **Basis.** director notes. **Scope.** any prop interaction.
+- **Basis.** taste (one director's notes). **Scope.** any prop interaction.
 
 ### A hand alone is still the character
 `id: character.hands` · principles 1, 6
@@ -191,7 +191,7 @@ by the feet. The prop may cross the face briefly in travel; the held pose shows 
 from the frame edge, makes its contact ([motion.contact](motion-and-timing.md#contacts-speed-up-into-them)) and moves
 afterwards only with a reason. Two characters' hands get different colours.
 - **Why.** A hand that changes size or wanders breaks the sense of one character behind it.
-- **Basis.** director notes. **Scope.** hand-only or partial-character shots.
+- **Basis.** taste (one director's notes). **Scope.** hand-only or partial-character shots.
 
 ## Feet, ground and shadow
 
@@ -249,7 +249,7 @@ states (smile, "oh", gasp, grin) rather than pushing one mouth through all of th
 keying it.
 - **Why.** Small faces read differently from the rig preview: default brow values read as angry, a guessed mouth value
 came out as a gasp.
-- **Basis.** director notes. **Scope.** any face.
+- **Basis.** practice (one director's notes). **Scope.** any face.
 
 ### Deform only the feature
 `id: character.deformation` · principles 4, 7
@@ -281,4 +281,4 @@ skewing it. Don't push its face through a proxy plane; use rear artwork for a ba
 flat character can stay flat beside 3D objects.
 - **Why.** Following composition geometry too literally flattened a shaded character and skewed it; its source
 rendering fixed both.
-- **Basis.** director notes, several rounds. **Scope.** any existing character in new staging.
+- **Basis.** taste (one director's notes, several rounds). **Scope.** any existing character in new staging.

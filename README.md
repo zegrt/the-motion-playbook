@@ -67,8 +67,11 @@ Each rule is a short card:
 
 - **Rule**: what to do, in a line or two.
 - **Why**: the reason it works.
-- **Basis**: what it rests on. One of: *principle* (how motion and perception work), *measured* (we checked it on screen),
-  *technical fact* (true of the medium or a tool, with the version), or *taste* (whose).
+- **Basis**: what it rests on. It starts with one or more of: *principle* (how motion and perception work), *measured*
+  (we checked it on screen), *technical fact* (true of the medium or a tool, with the version), *practice* (a way of
+  working that held up in production, or what practitioners do), or *taste* (whose). Then, where it helps, how much
+  stands behind it: one case, one production, a director's notes. In the shared layers a director is named by role
+  ("one director's notes"), never by name; their own taste lives in their profile.
 - **Scope**: where it applies (any, any camera-based scene, 2D, interactive...).
 - Only when they add something: **Unless** (when it doesn't apply, or which rule wins), **Check** (how to verify it),
   **In tools** (where the tool-specific how-to lives).
@@ -79,7 +82,9 @@ Every rule has an `id` so other files link to it instead of copying it. Examples
 real project cases live in the house layer and link to rule ids, never the other way round.
 
 Tool notes use a different card, because a software quirk is searched by its symptom: **Symptom**, **Cause**, **Fix**,
-**Seen** (tool version and date).
+**Seen** (tool version and date). A technique rather than a quirk has no Symptom: its heading names what it solves, and
+its card can be a Fix alone. Each tool file says at the top which version its notes were seen in, or that the version
+wasn't recorded.
 
 ## Coverage
 

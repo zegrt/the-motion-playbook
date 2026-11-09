@@ -213,7 +213,7 @@ motion and effects for the new design; the old list may no longer fit.
 - **Rule.** Keep ambient motion simple: a few cheap techniques (one noise layer, looping bands, offset copies of one
 animation; for a piece in a 3D world, one bob or drift plus a slow turn) rather than many hand-keyed parts.
 - **Why.** Ambient motion is felt, not studied; expensive ambient motion slows every iteration of the shot.
-- **Basis.** director notes; measured on render times. **Scope.** any.
+- **Basis.** practice (one director's notes); measured on render times. **Scope.** any.
 
 ### A quiet build-up, or a stacked transition
 `id: motion.build-vs-stack` · principles 1, 3
@@ -222,8 +222,8 @@ animation; for a piece in a 3D world, one bob or drift plus a slow turn) rather 
 caused by the one before, one main thing at a time, with the character's gaze leading the eye. A transition is different:
 it can stack events (the dark lifting, a grin, the cards coming back) on top of each other.
 - **Why.** Build-ups need a readable chain; transitions need momentum.
-- **Basis.** the stacked transition is confirmed; the quiet build-up was judged at full speed in a finished film (one case).
-**Scope.** any.
+- **Basis.** taste (one director: the stacked transition is confirmed; the quiet build-up was judged at full speed in a
+finished film, one case). **Scope.** any.
 
 ## Effects and loops
 

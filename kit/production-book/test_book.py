@@ -94,7 +94,8 @@ class BookTest(unittest.TestCase):
     def test_state_is_the_same_whatever_the_dates_or_file_names(self):
         self.version('S02', 'anim', 2, date='2026-01-13T09:00')
         self.version('S02', 'anim', 3, date='2026-01-10T09:00')  # an earlier date than v002
-        self.log('approval', 'version=s02_anim_v002', 'medium=call', 'quote=That one.', date='2026-01-14T09:00')
+        self.log('approval', 'version=s02_anim_v002', 'medium=call', 'quote=That one.', 'by=director',
+                 date='2026-01-14T09:00')
         self.log('note', 'id=N-002', 'unit=S01', 'state=closed', 'text=Done.', date='2026-01-01T09:00')
         pages = {n: self.read(n) for n in ('BOOK.md', 'OPEN.md')}
         self.assertIn('| S02 | anim | s02_anim_v003 | not approved yet | last approved: s02_anim_v002 |',
@@ -130,8 +131,8 @@ class BookTest(unittest.TestCase):
         self.version('S02', 'anim', 2)
         self.assertIn('| S02 | anim | s02_anim_v002 | not approved yet | last approved: s02_anim_v001 |',
                       self.read('BOOK.md'))
-        self.log('approval', 'version=s02_anim_v002', 'medium=call', 'quote=Fine.')
-        self.assertIn('| S02 | anim | s02_anim_v002 | approved (rough) | tester, 2026-01-13: "Fine." |',
+        self.log('approval', 'version=s02_anim_v002', 'medium=call', 'quote=Fine.', 'by=director')
+        self.assertIn('| S02 | anim | s02_anim_v002 | approved (rough) | director, 2026-01-13: "Fine." |',
                       self.read('BOOK.md'))
 
     def test_approval_and_decision_need_the_directors_words(self):
@@ -142,12 +143,26 @@ class BookTest(unittest.TestCase):
         self.assertEqual(rc, 1)
         self.assertIn('recommendation is a note', out)
 
+    def test_the_director_is_named_never_whoever_logs_it(self):  # blind review, finding 1
+        records = os.path.join(self.book, 'records')
+        before = sorted(os.listdir(records))
+        for kind, fields in (('approval', ('version=s01_anim_v002', 'quote=ok', 'medium=chat')),
+                             ('decision', ('scope=film', 'words=Use the blue'))):
+            with self.subTest(kind):
+                rc, out = self.log(kind, *fields, ok=False)  # run as "tester", with no by=
+                self.assertEqual(rc, 1, out)
+                self.assertIn('needs by', out)
+                self.assertEqual(sorted(os.listdir(records)), before)
+        self.log('approval', 'version=s01_anim_v002', 'quote=ok', 'medium=chat', 'by=director')
+        self.assertIn('director, 2026-01-13: "ok"', self.read('BOOK.md'))
+        self.assertNotIn('tester', self.read('BOOK.md'))
+
     def test_an_approval_needs_its_medium_and_date(self):  # review 9, finding 5
         self.write_record('bare.txt', 'kind: approval\nversion: s01_anim_v002\nby: director\nquote: Approved\n')
         rc, out = self.check()
         self.assertEqual(rc, 1)
         self.assertIn('an approval needs medium, date', out)
-        rc, out = self.log('approval', 'version=s01_anim_v002', 'quote=Yes', ok=False)
+        rc, out = self.log('approval', 'version=s01_anim_v002', 'quote=Yes', 'by=director', ok=False)
         self.assertIn('needs medium', out)
 
     def test_a_version_needs_an_id(self):  # review 8, finding 8
@@ -246,6 +261,31 @@ class BookTest(unittest.TestCase):
         rc, out = self.check()
         self.assertIn('closed here but never opened', out)
 
+    def test_a_note_closes_with_only_its_id_and_state(self):  # blind review, finding 4
+        self.log('note', 'unit=S02', 'text=quick one')
+        rc, out = self.log('note', 'id=N-004', 'state=closed')
+        self.assertIn('Logged note N-004', out)
+        self.assertNotIn('N-004', self.read('OPEN.md'))
+        rc, out = self.check()
+        self.assertEqual(rc, 0, out)
+
+    def test_a_note_names_a_version_of_its_own_unit(self):  # blind review, finding 4
+        rc, out = self.log('note', 'unit=S01', 'version=s01_anim_v077', 'text=x', ok=False)
+        self.assertEqual(rc, 1)
+        self.assertIn('note names version s01_anim_v077, which no version record has', out)
+        rc, out = self.log('note', 'unit=S02', 'version=s01_anim_v001', 'text=x', ok=False)
+        self.assertEqual(rc, 1)
+        self.assertIn("version s01_anim_v001 is S01's, not S02's", out)
+        self.write_record('stray.txt', 'kind: note\nid: N-050\nunit: S02\nversion: s01_anim_v001\ntext: x\n'
+                          'date: 2026-01-13T09:00\nby: x\n')
+        rc, out = self.check()
+        self.assertEqual(rc, 1, out)
+        self.assertIn("records/stray.txt: version s01_anim_v001 is S01's", out)
+
+    def test_a_unit_with_no_versions_is_on_the_front_page(self):  # blind review, finding 3
+        self.log('unit', 'id=S04', 'title=Outro')
+        self.assertIn('| S04 |  |  | no versions yet |  |', self.read('BOOK.md'))
+
     def test_a_parked_note_is_listed_as_parked(self):
         self.log('note', 'id=N-003', 'unit=S03', 'state=parked', 'text=v1.1 if asked')
         self.assertIn('Parked:\n- N-003', self.read('OPEN.md'))
@@ -259,7 +299,7 @@ class BookTest(unittest.TestCase):
     # --- messages and help (the PM's check, findings 2 and 3)
 
     def test_the_log_message_says_what_was_logged(self):
-        rc, out = self.log('approval', 'version=s01_anim_v002', 'quote=Still good.', 'medium=call')
+        rc, out = self.log('approval', 'version=s01_anim_v002', 'quote=Still good.', 'medium=call', 'by=director')
         self.assertIn('Logged approval s01_anim_v002 in records/', out)
 
     def test_log_help_names_the_kinds(self):
@@ -287,7 +327,7 @@ class BookTest(unittest.TestCase):
         self.assertEqual(len(files), 1)
         text = slurp(os.path.join(inbox, files[0]))
         self.assertIn('**From:** tester', text)
-        self.assertIn('Vertical, fifteen seconds', text)
+        self.assertNotIn('Vertical, fifteen seconds', text)  # blind review, finding 3: decisions stay in the project
         self.assertIn('check a hook muted', text)
         rc, out = self.run_book('close', '--book', self.book, '--inbox', inbox, '--today', TODAY, ok=False)
         self.assertEqual(rc, 1)

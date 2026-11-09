@@ -22,7 +22,7 @@ shots hang on.
 - **Rule.** Before building a shot, agree in words what it shows and what its beat is. Then act every element, including
 the character, to that beat. Don't invent sequences the story doesn't need.
 - **Why.** A shot built before its beat is agreed gets rebuilt; acting without a beat is busy, not expressive.
-- **Basis.** director notes. **Scope.** any shot.
+- **Basis.** practice (one director's notes). **Scope.** any shot.
 
 ### Every shot does something different
 `id: story.distinct-shots` · principle 1
@@ -30,7 +30,7 @@ the character, to that beat. Don't invent sequences the story doesn't need.
 - **Rule.** Check neighbouring shots against each other: each one has to move the story, the information or the feeling
 somewhere new.
 - **Why.** Shots refined one at a time can drift until several do the same job, and then none of them lands.
-- **Basis.** director notes. **Scope.** any sequence.
+- **Basis.** taste (one director's notes). **Scope.** any sequence.
 - **Check.** Name each shot's job in five words. Two identical names means one shot should go or change.
 
 ### Each shot brings its own elements
@@ -41,7 +41,7 @@ shot stay out. Things glimpsed in an overview or a montage are previews of the r
 carry into later shots.
 - **Why.** Carried into a shot that isn't about them, they crowd it with things that aren't its subject and blur what
 the shot is for.
-- **Basis.** director notes. **Scope.** any piece with an overview and feature scenes.
+- **Basis.** taste (one director's notes). **Scope.** any piece with an overview and feature scenes.
 
 ## Time on screen
 
@@ -69,7 +69,7 @@ question, a trick and a result was right; adding 1.6 seconds in total was too sl
 - **Rule.** Once a beat has landed, cut. Trim tails, darks and holds that only wait, and move everything after them up.
 A short empty beat (about 0.2 seconds) can be worth keeping when it gives the next moment room; the rest goes.
 - **Why.** Most rough cuts hold too long after the point is made: "it doesn't need to be two whole seconds."
-- **Basis.** director notes. **Scope.** any cut.
+- **Basis.** taste (one director's notes). **Scope.** any cut.
 
 ### Retime the beat with its word
 `id: story.retime-with-vo` · principles 1, 3
@@ -94,7 +94,7 @@ describes. Land words on picture by measuring where the word starts in the audio
 - **Rule.** Treat a transition as a beat of its own: it can stack events (light changing, a reaction, things returning)
 and it should keep its momentum. Keep it short enough to keep the film's beat.
 - **Why.** A transition built as one thing at a time loses the energy that carries the viewer into the next scene.
-- **Basis.** director notes. **Scope.** any transition.
+- **Basis.** taste (one director's notes). **Scope.** any transition.
 
 ### Seamless joins are designed across both shots
 `id: story.seamless-join` · principles 3, 6
@@ -123,7 +123,7 @@ and note the joins between scenes.
 
 - **Rule.** Keep earlier versions of a shot or cut reachable while it's being refined.
 - **Why.** Notes often land "somewhere between this and the last one", which needs both to hand.
-- **Basis.** director notes. **Scope.** any iteration.
+- **Basis.** practice (one director's notes). **Scope.** any iteration.
 
 ## Versions and variants
 
@@ -143,7 +143,7 @@ shortening a move, check nothing new crosses its path.
 
 - **Rule.** For a reduced variant, try removing the element first, before redesigning the space around it.
 - **Why.** A removal keeps everything approved in place; redesigns of a variant multiply review rounds.
-- **Basis.** one strong example. **Scope.** any reduced variant.
+- **Basis.** practice (one strong example). **Scope.** any reduced variant.
 
 ### Plan versions with clean edit points
 `id: story.edit-points` · principle 1

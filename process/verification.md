@@ -15,8 +15,8 @@ Prove a fault before reporting it: measure sizes and timings from the frames, no
 an intersection from the 3D positions or across frames, because overlap in a 2D frame isn't proof. If unsure, leave it
 out. If nothing is wrong, say it passes. Optional ideas get one line at most, outside the list.
 - **Why.** Nitpicks hide the real faults and cost the director's time; unproven faults cost more.
-- **Basis.** director notes, repeated; measured (false collision reports from flat frames; a size guessed at 1.9× that
-measured 1.27×). **Scope.** any review.
+- **Basis.** practice (one director's notes, repeated); measured (false collision reports from flat frames; a size
+guessed at 1.9× that measured 1.27×). **Scope.** any review.
 
 ### Look at it before showing it
 `id: verify.own-output` · principle 2

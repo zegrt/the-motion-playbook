@@ -1,6 +1,6 @@
 kind: decision
+by: director
 scope: film
 words: Vertical, fifteen seconds, and the light is the hero.
 source: brief call, 5 Jan
 date: 2026-01-05T10:00
-by: director

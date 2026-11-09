@@ -36,7 +36,7 @@ loses both.
 its own beat. Keep together the words that describe one thing ("see patterns across games"), and separate the part that
 belongs to the next picture ("and where to focus next").
 - **Why.** One continuous take forces the picture to wait for the voice, or the voice to talk over the change.
-- **Basis.** director notes; one production. **Scope.** any VO over cut or staged picture.
+- **Basis.** practice (one director's notes, one production). **Scope.** any VO over cut or staged picture.
 
 ### Check a line can make both its hits
 `id: sound.two-hits` · principle 2
@@ -120,7 +120,8 @@ from its in-point to the next hit that must stay clear. List the lines that don'
 - **Rule.** The brief is a short document a person reads (a PDF), not a data file. Timecodes are `HH:MM:SS:FF`, never frame
 numbers or seconds to three decimals. A short README in the folder points to the brief.
 - **Why.** An engineer works in timecode with the picture running. A CSV of frame numbers is made for a script.
-- **Basis.** director notes ("this is to send to a human, not an AI"). **Scope.** any external audio hand-off.
+- **Basis.** practice (one director's notes: "this is to send to a human, not an AI"). **Scope.** any external audio
+hand-off.
 
 ### Picture they can work against
 `id: sound.handoff-picture` · principle 6
@@ -141,7 +142,7 @@ row per scene); the moments that must land, with timecodes; the VO script with r
 on; any character sounds; music sources; rules from the client brief; deliverables; the process. Then an appendix that
 lists every action in the picture by timecode, for reference.
 - **Why.** Intent first, detail last. The appendix saves hunting for hits without saying what to do with them.
-- **Basis.** one production, reviewed by its director. **Scope.** any external audio hand-off.
+- **Basis.** practice (one production, reviewed by its director). **Scope.** any external audio hand-off.
 
 ### Agree the feel before you write it
 `id: sound.agree-feel` · principle 1
@@ -149,7 +150,8 @@ lists every action in the picture by timecode, for reference.
 - **Rule.** Ask the director the feel questions (overall mood, references, one track or several, the biggest moments, what
 happens at the silences) and write their answers. Don't draft the feel section from your own reading of the picture.
 - **Why.** The feel section is the director speaking to the engineer. A guessed one points them the wrong way, confidently.
-- **Basis.** director notes ("ask me stuff before making the how it should feel thing"). **Scope.** any brief.
+- **Basis.** practice (one director's notes: "ask me stuff before making the how it should feel thing"). **Scope.** any
+brief.
 
 ### Name the moments, not the sounds
 `id: sound.no-sound-suggestions` · principles 1, 7
@@ -157,7 +159,8 @@ happens at the silences) and write their answers. Don't draft the feel section f
 - **Rule.** List what happens and what matters ("the catch is a hit", "sound drops to near-silence here"). Don't suggest a
 sound for each action.
 - **Why.** Choosing sounds is the engineer's craft. A suggestions column reads as the design already done.
-- **Basis.** director notes (a suggestions column was removed from a brief). **Scope.** any brief to a sound designer.
+- **Basis.** practice (one director's notes: a suggestions column was removed from a brief). **Scope.** any brief to a
+sound designer.
 
 ### Rough in-points, dry takes
 `id: sound.vo-handoff` · principles 6, 7
@@ -213,8 +216,8 @@ jobs the action has. Mute layers one at a time in context; drop any that change 
 object's size and distance first, then process.
 - **Why.** Stacked layers doing the same job blur the event. A loud generic whoosh annoys long before it helps. Ninety
 layers is an inventory, not a soundtrack.
-- **Basis.** practitioner sources; director notes (both "too loud and annoying" and "this event needs more than one
-sound"). **Scope.** any sound design.
+- **Basis.** practice (practitioner sources); taste (one director's notes: both "too loud and annoying" and "this event
+needs more than one sound"). **Scope.** any sound design.
 
 ### Decide what leads each moment
 `id: sound.foreground` · principles 1, 5

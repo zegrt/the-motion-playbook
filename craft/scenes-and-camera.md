@@ -158,7 +158,7 @@ before anything covers the scene.
 
 - **Rule.** On an information shot, use one small steady push; don't aim the camera at each action as it happens.
 - **Why.** A camera that follows the action up and down reads as jerky and pulls the eye off what it should read.
-- **Basis.** director notes. **Scope.** any information beat.
+- **Basis.** taste (one director's notes). **Scope.** any information beat.
 
 ### A camera move changes what the set must survive
 `id: scene.reaudit-angles` · principle 2
@@ -192,7 +192,7 @@ open about the cheat.
 - **Rule.** When a later shot answers an earlier one (a reverse, a return), make it feel like the same move rather than a
 one-to-one replica.
 - **Why.** An exact replica reads as a repeat; an echo reads as intent.
-- **Basis.** director notes. **Scope.** any sequence.
+- **Basis.** taste (one director's notes). **Scope.** any sequence.
 
 ## What fills the frame
 
@@ -211,14 +211,14 @@ Colour can carry the story along it, warm at the source, cooling with distance.
 - **Rule.** Fill a background with fewer pieces, mostly tone on tone, with one accent. On an information shot (a puzzle,
 a card to read), keep background life out of the frame; floating elements belong to the shots that show the world.
 - **Why.** Many bright, evenly spread objects make a floor busy and take the accent colours away from the message.
-- **Basis.** director notes; measured. **Scope.** any scene.
+- **Basis.** taste (one director's notes); measured. **Scope.** any scene.
 
 ### Nothing passes in front of the subject
 `id: scene.subject-clear` · principles 1, 2
 
 - **Rule.** Background elements never cross in front of the subject.
 - **Why.** A crossing piece interrupts the read at the worst moment and breaks the depth order the eye expects.
-- **Basis.** director notes. **Scope.** any scene with a subject.
+- **Basis.** taste (one director's notes). **Scope.** any scene with a subject.
 - **Check.** Track crossings in front of the subject across every frame; aim for zero.
 
 ### A crowd made of the subject

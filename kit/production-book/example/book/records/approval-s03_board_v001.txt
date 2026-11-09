@@ -1,6 +1,6 @@
 kind: approval
+by: director
 version: s03_board_v001
 medium: call
 quote: Boards are right; go to animation.
 date: 2026-01-06T15:00
-by: director

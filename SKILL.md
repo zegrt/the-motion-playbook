@@ -32,16 +32,17 @@ outcome.
 
 | Stage | Read |
 |---|---|
-| Plan: brief, concept, beats, boards, styleframes | [story-and-edit](craft/story-and-edit.md) (The whole and its beats, Time on screen); [look-and-finish](craft/look-and-finish.md) (Building a look; the rule Judge the look at viewing size); [character](craft/character.md) (Before animating) if there's a character; [sound-and-vo](craft/sound-and-vo.md) (Writing and timing VO) if there's VO; [interactive](craft/interactive.md) (the rule Settle the behaviour before building) if an app plays it; [working agreement](process/working-agreement.md) (the rule Plan each shot in one block); [production book](process/production-book.md) when a production starts (a single piece needs only its front page) |
-| Build: layout, rigging, animation | [motion-and-timing](craft/motion-and-timing.md); [scenes-and-camera](craft/scenes-and-camera.md) if there's a camera or depth; [character](craft/character.md) if there's a character; [interactive](craft/interactive.md) if an app plays it; the tool's file in [tools/](tools/); log versions, notes and approvals in the project's book, if it has one ([production book](process/production-book.md)) |
+| Plan: brief, concept, beats, boards, styleframes | [story-and-edit](craft/story-and-edit.md) (The whole and its beats, Time on screen; Versions and variants when versions are coming); [look-and-finish](craft/look-and-finish.md) (Building a look; the rule Judge the look at viewing size); [character](craft/character.md) (Before animating) if there's a character; [sound-and-vo](craft/sound-and-vo.md) (Writing and timing VO) if there's VO; [sound-and-vo](craft/sound-and-vo.md) (the rule Plan the music for every version) when versions are coming; [interactive](craft/interactive.md) (the rule Settle the behaviour before building) if an app plays it; [working agreement](process/working-agreement.md) (the rule Plan each shot in one block); [production book](process/production-book.md) when a production starts (a single piece needs only its front page) |
+| Build: layout, rigging, animation | [motion-and-timing](craft/motion-and-timing.md); [scenes-and-camera](craft/scenes-and-camera.md) if there's a camera or depth; [character](craft/character.md) if there's a character; [sound-and-vo](craft/sound-and-vo.md) (AI voice, Checking takes) if there's VO; [interactive](craft/interactive.md) if an app plays it; the tool's file in [tools/](tools/); log versions, notes and approvals in the project's book, if it has one ([production book](process/production-book.md)) |
 | Review: your own output before showing it, or the director's notes | [verification](process/verification.md); the **Check** lines of the rules behind what was built; `interactive.qc` for interactive pieces; [scenes-and-camera](craft/scenes-and-camera.md) (Check what the camera really sees, Check that motion keeps the meaning); [story-and-edit](craft/story-and-edit.md) (The whole at speed); core principles 2 and 4; the book's open list and current versions, if the project has one |
-| Finish: look, grade, glow, grain, sound | [look-and-finish](craft/look-and-finish.md) (Light and value, Colour and reading size, Finishing); [sound-and-vo](craft/sound-and-vo.md) (Handing off to an audio engineer, Sound effects) |
+| Finish: look, grade, glow, grain, sound | [look-and-finish](craft/look-and-finish.md) (Light and value, Colour and reading size, Finishing); [sound-and-vo](craft/sound-and-vo.md) (Handing off to an audio engineer, Sound effects, What measurement can't tell you) |
 | Deliver: masters, versions, encodes, audio specs | [look-and-finish](craft/look-and-finish.md) (Output and QC); [story-and-edit](craft/story-and-edit.md) (Versions and variants); [sound-and-vo](craft/sound-and-vo.md) (Music and licences, Delivery specs); [audio-and-encoding](tools/audio-and-encoding.md); [verification](process/verification.md) (Say how far a claim is proven); the project's cut list, if it has a book (`CUT.tsv`; [production book](process/production-book.md), the rule The cut is one record); [interactive](craft/interactive.md) (Identify what is handed over) for interactive assets |
 
 A tool misbehaving: search its file in `tools/` by the symptom before debugging from scratch.
 
 Where no rule covers the work, say so: name what's missing, cite a nearby rule only for the part it supports, and
-mark the rest as general judgment, not as the playbook's.
+mark the rest as general judgment, not as the playbook's. The known gaps are listed in the README's
+[Coverage](README.md#coverage).
 
 When a rule drives a choice or a review note, cite its id (`motion.overlap`), so the director can check it. Copy the id
 from the `id:` line under the rule's heading; never build one from the title.
@@ -61,5 +62,5 @@ carry it. When a repeated correction is one person's taste or way of working rat
 their profile (`profiles/<name>.md`, or a new one from the template); that person approves their own. Nothing reaches
 the playbook until it's approved, as [that README](inbox/README.md#how-a-proposal-becomes-part-of-the-playbook)
 describes. At the end of a project, run the wrap in [process/wrap.md](process/wrap.md); if the project has a production
-book, `book.py close` gathers its decisions and lessons into one inbox file for it. If the person you work with isn't
+book, `book.py close` gathers its lessons into one inbox file for it. If the person you work with isn't
 the playbook's maintainer, their wrap ends with sending their proposals as that README says.
