@@ -1,0 +1,6 @@
+# The cut: one row per unit, in film order. Frames are inclusive, and each row starts on the frame after the row
+# before it ends. The cut is an editorial decision, so it is the one table written by hand.
+unit	version	src_in	src_out	film_in	film_out
+S01	s01_finish_v001	0	89	0	89
+S02	s02_finish_v001	0	239	90	329
+S03	s03_finish_v001	0	119	330	449

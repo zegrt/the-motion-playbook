@@ -1,0 +1,10 @@
+kind: version
+unit: D1
+step: deliver
+pass: final
+output: out/lantern_main_9x16_price_v1.mp4
+summary: Encoded from the master
+checked: full decode; loudness measured; watched on a phone with sound
+date: 2026-01-13T10:00
+by: editor
+id: d1_deliver_v001

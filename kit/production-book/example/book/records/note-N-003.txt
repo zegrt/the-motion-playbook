@@ -1,0 +1,10 @@
+kind: note
+unit: S03
+type: cross-unit
+version: s03_finish_v001
+frames: f330
+priority: should
+text: S02's lamp glow is larger than S03's on the cut; S03's owner to look.
+date: 2026-01-12T17:10
+by: animator
+id: N-003

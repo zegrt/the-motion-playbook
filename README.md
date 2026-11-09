@@ -24,6 +24,8 @@ each person their own profile (`profiles/<name>.md`); none ship here.
 | `tools/` | how to do it in a given tool; dated, with versions |
 | `process/` | how work is checked and run, in any domain |
 | `QUICKSTART.md` | for someone new: install, profile, what to read, how to send a lesson |
+| `scripts/lint.py` | the cheap checks: rule ids and fields, links, private details, word budgets |
+| `kit/` | the production book kit |
 | `profiles/` | `_template.md`: copy it to write your own taste and way of working |
 | `houses/` | not included: your company's brand, characters and standards go here |
 | `inbox/` | proposed changes and lessons, waiting for approval; see its README |
@@ -95,13 +97,13 @@ proposal.
 | Type on screen | reading size (`look.viewing-size`); key lines on screen for muted viewing (`sound.sound-off`); a held read for information and labelled numbers (`story.read-time`); rolling numbers that keep their meaning (`scene.meaning-checks`, and `ae.odometer` in After Effects) | type as the main motion (kinetic type, legibility while moving beyond numbers); caption design; logo and end-card reveals |
 | Sound and VO | writing and timing VO, AI voice, handing off to an engineer, music and licences, effects, delivery and loudness | none known |
 | Interactive | settling behaviour, structure, the app's contract, start, waiting, reduced motion, interruption, checking on the device | a motion spec page for engineers, putting the contract (`interactive.contract`) and the curves as values (`motion.curve-tokens`) in one handoff with durations, springs and the exported files |
-| Process | verification; the working agreement and the wrap | the production book kit |
+| Process | verification; the working agreement and the wrap; the production book, its method and kit | a first real production run through the kit |
 | Tools | After Effects, Rive; audio and encoding (ElevenLabs, ffmpeg, whisper.cpp, reportlab) | Premiere, Resolve, Figma, Blender, Lottie, code (CSS, SwiftUI, Compose); video specs per platform (bitrate, size and length limits) |
 
 By kind of work, the gaps that matter most:
 - **Ads:** the hook, cutdowns, reframing and safe zones, type and captions, logo and end card, platform video specs.
 - **Product motion:** the motion spec page for engineers, interface timing, Lottie and code.
-- **Film:** notes for Premiere, Resolve and Blender, and the production book kit.
+- **Film:** notes for Premiere, Resolve and Blender, and the production book kit proved on a real production.
 
 ## Sending changes
 

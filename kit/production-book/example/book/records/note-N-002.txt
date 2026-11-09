@@ -1,0 +1,7 @@
+kind: note
+unit: S01
+type: lesson
+text: Landing the phone by f45 made the hook read on a muted feed: check a hook muted, at phone size.
+date: 2026-01-09T15:05
+by: animator
+id: N-002

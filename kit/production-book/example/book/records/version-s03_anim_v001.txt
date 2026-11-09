@@ -1,0 +1,10 @@
+kind: version
+unit: S03
+step: anim
+pass: rough
+output: out/s03_anim_v001_half.mp4
+summary: First pass
+checked: watched at speed, half resolution
+date: 2026-01-09T12:30
+by: animator
+id: s03_anim_v001

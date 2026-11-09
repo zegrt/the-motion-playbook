@@ -1,0 +1,8 @@
+kind: note
+id: N-001
+state: closed
+addressed_in: s01_anim_v002
+unit: S01
+text: Landed at f44.
+date: 2026-01-09T12:01
+by: animator

@@ -1,0 +1,9 @@
+kind: unit
+id: S03
+title: End card
+type: shot
+owner: designer
+steps: board,anim,finish
+joins: a match on the lamp's glow, S02's last frame to S03's first
+date: 2026-01-05T09:05
+by: director

@@ -1,0 +1,12 @@
+kind: unit
+id: D1
+title: Main, with price
+type: deliverable
+owner: editor
+steps: deliver
+format: 9x16
+length: 15 s
+variant: price
+language: en
+date: 2026-01-05T09:08
+by: director

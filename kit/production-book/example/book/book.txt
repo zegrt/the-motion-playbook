@@ -1,0 +1,4 @@
+title: Lantern: a 15 second ad
+kind: campaign
+steps: board,anim,finish,deliver
+note_days: 14

@@ -34,9 +34,10 @@ angry.
 ### Build toward the destination
 `id: character.authoring-order` · principles 6, 7
 
-- **Rule.** First list everything that can move: body, limbs, face, props, accessories, feet, ground, effects. For a new
-reusable pose, then set up controls, the hold and its recurring gesture, and build the entrance toward that hold. Review
-broad motion first, then expression and secondary response, then small effects.
+- **Rule.** Start from the current brief and artwork, including the expression, grip points and existing motion already
+approved for this work. Then list everything that can move: body, limbs, face, props, accessories, feet, ground,
+effects. For a new reusable pose, then set up controls, the hold and its recurring gesture, and build the entrance
+toward that hold. Review broad motion first, then expression and secondary response, then small effects.
 - **Why.** An entrance built toward a known hold hands off cleanly. A part found late (an eye squeeze, a cheek puff) gets
 laid on top of finished motion instead of inside its phrase.
 - **Unless.** A one-shot, or an edit to existing motion: use the order that best protects the approved behaviour.

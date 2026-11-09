@@ -1,0 +1,8 @@
+kind: unit
+id: S01
+title: Hook
+type: shot
+owner: animator
+steps: board,anim,finish
+date: 2026-01-05T09:05
+by: director

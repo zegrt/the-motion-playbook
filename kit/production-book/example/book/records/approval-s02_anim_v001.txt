@@ -1,0 +1,6 @@
+kind: approval
+version: s02_anim_v001
+medium: review link
+quote: Good; finish it.
+date: 2026-01-09T15:10
+by: director

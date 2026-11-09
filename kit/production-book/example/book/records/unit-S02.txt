@@ -1,0 +1,9 @@
+kind: unit
+id: S02
+title: The light
+type: shot
+owner: animator
+steps: board,anim,finish
+joins: S01's phone is already moving on S02's first frame
+date: 2026-01-05T09:05
+by: director

@@ -1,0 +1,10 @@
+kind: version
+unit: S01
+step: anim
+pass: rough
+output: out/s01_anim_v001_half.mp4
+summary: First pass of the hook
+checked: watched at speed, half resolution
+date: 2026-01-08T12:00
+by: animator
+id: s01_anim_v001

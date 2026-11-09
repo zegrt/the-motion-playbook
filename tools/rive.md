@@ -54,5 +54,8 @@ recorded). Character craft lives in `craft/character.md`.
 - Before editing a live file, read it fresh and keep the user's edits made since.
 - When reducing keys, remove only proven redundancies. A constant channel can go only if it never changes anywhere
   relevant, equals the base artwork value and has no ownership, reset or binding role; equal endpoints don't prove a
-  static curve. Keep neutral and reset ownership, holds, easing boundaries and invisible reset keys, and compare the
-  evaluated motion and renders before and after.
+  static curve. Keep neutral and reset ownership, holds, easing boundaries, invisible reset keys and meaningful loop
+  seam endpoints, and compare the evaluated motion and renders before and after. Interior collinear keys and duplicate
+  endpoints may be redundant, but inspect delay, interpolation and timeline duration before removing them.
+- Sharing identical curves or removing internal labels may help an export, provided public names and useful source
+  organization are preserved.

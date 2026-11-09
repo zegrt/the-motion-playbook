@@ -1,0 +1,9 @@
+kind: note
+unit: S01
+version: s01_anim_v001
+frames: f40-60
+priority: must
+text: The phone lands too late; land it by f45.
+date: 2026-01-08T16:00
+by: director
+id: N-001

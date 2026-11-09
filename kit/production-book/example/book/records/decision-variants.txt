@@ -1,0 +1,6 @@
+kind: decision
+scope: variants
+words: The no-price version keeps the same cut; only the end card changes.
+source: brief call, 5 Jan
+date: 2026-01-05T10:05
+by: director

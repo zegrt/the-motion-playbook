@@ -55,6 +55,6 @@ the agent should say so rather than pass general knowledge off as the playbook.
 Never edit the playbook's own files from project work. When something is learned (a correction you had to repeat, a
 tool quirk, a rule that misfired or was missing), the agent writes it as one file in `inbox/`. At the end of a project,
 send your inbox files as a pull request on a branch named `inbox/<your-name>-<date>`, or send the files to the
-maintainer. [inbox/README.md](inbox/README.md) has the format (it starts with who it's from) and who approves what.
-Quote the words you rely on: your session logs stay yours, so the quotes in your proposals are the only record the
-playbook keeps. Nothing reaches the playbook until it's approved.
+maintainer. [inbox/README.md](inbox/README.md) has the format (it starts with who it's from), and how a proposal is
+reviewed, approved and merged: nothing reaches the playbook before that. Quote the words you rely on: your session
+logs stay yours, so the quotes in your proposals are the only record the playbook keeps.

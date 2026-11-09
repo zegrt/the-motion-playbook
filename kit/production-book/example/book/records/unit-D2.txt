@@ -1,0 +1,12 @@
+kind: unit
+id: D2
+title: Main, no price
+type: deliverable
+owner: editor
+steps: deliver
+format: 9x16
+length: 15 s
+variant: no price
+language: en
+date: 2026-01-05T09:09
+by: director

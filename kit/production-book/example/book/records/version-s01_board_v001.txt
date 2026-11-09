@@ -1,0 +1,10 @@
+kind: version
+unit: S01
+step: board
+pass: rough
+output: out/s01_board_v001.png
+summary: Boards for the beat
+checked: watched at speed against the VO scratch
+date: 2026-01-06T11:00
+by: animator
+id: s01_board_v001

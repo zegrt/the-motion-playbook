@@ -87,3 +87,16 @@ paths are checked by the rules that own them.
 - **Check.** Check the piece alone and in its real parent layout, at display size and speed, on first load and with
 initial and missing data; test renderer-dependent features and final alignment in the intended host, and on the target
 device. Say which level each claim reached (`verify.evidence-levels`).
+
+### Identify what is handed over
+`id: interactive.handoff` · principle 6
+
+- **Rule.** A delivery identifies the actual asset and version, its entry point, and the source and runtime
+deliverables separately. Include or link the current controls and defaults (`interactive.contract`), the initial and
+ending presentation, looping and reset behaviour, and required runtime features. List unresolved checks; name their
+evidence levels and practical limits (`verify.evidence-levels`).
+- **Why.** A usable asset includes the information needed to start and control the right version. A file alone leaves
+the next person to infer behaviour that the author already settled.
+- **Basis.** principle; working practice from one interactive asset set. **Scope.** interactive asset deliveries.
+- **Check.** The identified files and linked contract match the delivered version; behaviour or device claims that
+were not verified are labelled that way.

@@ -1,0 +1,11 @@
+kind: version
+unit: S01
+step: anim
+pass: rough
+output: out/s01_anim_v002_half.mp4
+summary: Phone lands at f44
+checked: frames 40 to 60 at full size; watched at speed
+from: s01_anim_v001
+date: 2026-01-09T12:00
+by: animator
+id: s01_anim_v002

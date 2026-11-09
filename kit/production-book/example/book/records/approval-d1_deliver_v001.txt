@@ -1,0 +1,6 @@
+kind: approval
+version: d1_deliver_v001
+medium: email
+quote: Sent to the client.
+date: 2026-01-13T11:00
+by: director

@@ -1,0 +1,11 @@
+kind: version
+unit: S01
+step: finish
+pass: final
+output: out/s01_finish_v001.mov
+summary: Graded, full resolution
+checked: full decode; every frame at 100% for banding; watched at speed with sound
+limits: colour tags not checked on the target platform
+date: 2026-01-12T12:00
+by: animator
+id: s01_finish_v001
