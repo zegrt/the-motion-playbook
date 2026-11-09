@@ -33,8 +33,9 @@ recorded). Character craft lives in `craft/character.md`.
   its baseline once, then releases. Independent layers must not animate the same channels.
 - Blinks and idles are one-shot timelines repeated by transitions; holds are loop timelines exited after one full cycle.
   Effective time includes the state's speed (a 23-frame blink at 0.25× lasts four times as long).
-- When the project's contract selects poses through a View Model, use enums, not numbers. Don't copy model names, enum
-  indices or trigger names between files; verify the bound instance and the selected child's data context.
+- When a contract picks one of several discrete poses through a View Model, prefer an enum to a number; keep whatever
+  type an existing contract declares. Don't copy model names, enum indices or trigger names between files; verify the
+  bound instance and the selected child's data context.
 - Changing `autoPlay` after the entry state has evaluated doesn't restart anything; a native `play()` only resumes
   advancing. Fire the contract's play trigger.
 - If reset and play reach a nested instance together, one trigger can be lost; a short static initialisation state helps.

@@ -8,7 +8,9 @@ A profile has two halves, because the person directing and the person at the con
   how much the agent does on its own, how often to show work, and how to write.
 
 Order of authority: the project's own decisions, then the director's taste, then the house layer, then the core.
-Keep each half to about one page. Fill it in about 20 minutes; revise when you notice yourself repeating a correction.
+Start small: a few lines you're sure of are enough, and an empty item is fine. The profile grows from the corrections
+you find yourself repeating: when you correct the same thing twice, the agent proposes a line for your profile, and you
+approve it, because a profile is its owner's to approve. Keep each half to about one page.
 
 ## Taste (applies when directing)
 

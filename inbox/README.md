@@ -7,9 +7,12 @@ the skill doesn't route agents here for reading and lint doesn't check it.
 
 One file per proposal, so parallel agents never write to the same file: `YYYY-MM-DD-<project>-<short-slug>.md`. Inside:
 
+- **From:** who sent it (your name, as your profile's file name has it if you have one) and the date;
 - what it changes: a new rule, an edit to an existing one (give its id), a tool note, or a rule that misfired;
 - the rule card or tool note in the [README](../README.md#how-rules-are-written) format;
-- **Evidence:** the date, the project, the director's own words, and the file or render it came from.
+- **Evidence:** the date, the project, the director's own words, and the file or render it came from. Quote the words
+  you rely on in full: unless you're the maintainer, the quotes in your proposals are the only record of your messages
+  the playbook keeps, because nobody else's session logs are harvested.
 
 ## Sending it
 

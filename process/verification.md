@@ -23,10 +23,15 @@ measured 1.27×). **Scope.** any review.
 
 - **Rule.** Before showing anything, look at it: every motion sheet, and the key frames at full size, against the brief and
 the source. A clean decode or passing expression checks is not a review. Report what was checked as facts (numbers, the
-frames looked at), and claim nothing that wasn't checked.
+frames looked at), and claim nothing that wasn't checked. A claim that something is absent ("not covered", "not
+found", "no rule says", "nothing was lost") shows the search behind it: the terms, where they were searched, and what
+came back, hits included, so the reader can rerun it.
 - **Why.** Technical checks pass on work that is visibly wrong: an unopened sheet once hid an illegible title, misplaced
-elements and a false alignment claim.
-- **Basis.** measured (one case); director notes, repeated. **Scope.** any.
+elements and a false alignment claim. Absence claims are cheap to write and costly to check, and three were wrong in one
+week. One showed its search but reported no hits for terms that did match, so the hits have to be shown, not only the
+terms. Two showed no search at all: a retired note whose main instruction no rule carried, and a list of what was left
+that was four too long.
+- **Basis.** measured (one case; three absence claims in one week); director notes, repeated. **Scope.** any.
 
 ### Check the saved result, not the operation
 `id: verify.readback` · principle 2
@@ -59,6 +64,8 @@ tell you (`story.whole-at-speed`: frame checks find errors, not feel).
 - **Why.** A quick pass finds problems while the plan still looks good on paper: things that vanish, effects nobody can
 see, symbols that change identity mid-motion.
 - **Basis.** measured (one case). **Scope.** any. `character.look-dev-first` is the character case.
+- **Check.** Before a full-length render, look at the keys, the expressions and a few stills, so a mistake doesn't
+cost a whole render.
 
 ### Find the version that holds the work
 `id: verify.right-version` · principles 6, 7
