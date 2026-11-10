@@ -22,6 +22,23 @@ If you're the maintainer, it's already where it needs to be. Anyone else sends t
 a pull request that adds their inbox files (branch `inbox/<your-name>-<date>`), or the files themselves if you don't have
 access to the repo.
 
+From your clone at the end of a project, use a branch for your proposals. Replace the placeholders with your name,
+date, project and proposal file name before running these commands; list each proposal file after `git add`:
+
+```sh
+git switch -c inbox/<your-name>-<date>
+git add inbox/<your-file>.md
+git commit -m "Inbox: <project>, <your-name>"
+git push -u origin inbox/<your-name>-<date>
+```
+
+Then open a pull request for that branch on GitHub, or run `gh pr create` while still on it. Never commit or push to
+`main`; only the maintainer merges. Afterwards, return to the main branch and pull:
+
+```sh
+git switch main && git pull
+```
+
 ## How a proposal becomes part of the playbook
 
 1. **Checked by whoever wrote it:** against its sources; against the playbook's own rules (the right layer, the card
