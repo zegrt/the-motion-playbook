@@ -11,7 +11,7 @@ Paths below are relative to this folder.
 ## Every session
 
 At the start of a project, if this folder is a git clone, run `git pull --ff-only` in it first, so you work from the
-latest playbook. If it can't fast-forward, say so and carry on with what's here.
+latest playbook. If the pull fails for any reason, say so with its error, and carry on with what's here.
 
 Use existing project context to resolve routine choices; investigate missing details when they would change the
 outcome.
@@ -23,10 +23,15 @@ outcome.
    no profile, follow the [working agreement](process/working-agreement.md).
 3. If the project has a production book, read its front page (`book/BOOK.md`): its decisions and approvals are the
    project's own, and they win (When layers disagree).
+   If it has none, start one at the first director decision or the first version of anything (`book.py new`,
+   [production book](process/production-book.md)), and say so.
 4. If the work is for a company with a folder in `houses/`, read its README, then the house files the stage needs. Only
    when the brief or the project says so: a house never applies by default. If you can't ask, say what you assumed.
 5. Route by stage below. Don't load every chapter: the core and all chapters come to about 18,000 tokens. A named section
    means that `## ` heading and its rules; a named rule means that one `### ` card. Neither means the whole file.
+
+A resumed or summarised session is a new session: before the next action, re-read CORE, the profiles and the book's
+front page. A summary of the playbook is not the playbook.
 
 ## Route by stage
 
