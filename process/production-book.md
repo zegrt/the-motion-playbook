@@ -85,7 +85,8 @@ how far each check is proven (`verify.evidence-levels`).
 
 A book is solo until a second person or agent writes to it. The idea under both cards: each piece of work has one
 writer at a time, and anything outside your own scope changes only by proposal. The kit doesn't run team mode: keep
-these rules by hand (a claim can be a line in a shared file, or a message to the others).
+these rules by hand (a claim can be a line in a shared file, or a message to the others). A repository task's files
+are claimed on the team's own work board; this section covers a production's units and open apps.
 
 ### One writer per scope
 `id: book.one-writer` · principle 6
