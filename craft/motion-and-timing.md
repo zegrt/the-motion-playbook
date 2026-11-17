@@ -135,7 +135,7 @@ Reference curves from past work (cubic bezier). They are starting points, not pr
 | tight S | (0.78, 0, 0.12, 1) | a decisive move between poses |
 | tight arrival | (0.35, 0, 0.1, 1) | settling off an overshoot |
 
-The last two are a director's house taste for a premium, tight feel (see the house layer); the first four are general.
+The last two are one production's choice for a premium, tight feel, kept as a house case; the first four are general.
 
 ### Recheck tangents after editing time
 `id: motion.tangents-after-edit` · principle 3

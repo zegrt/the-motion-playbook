@@ -7,7 +7,8 @@ A profile has two halves, because the person directing and the person at the con
 - **Working style** follows whoever **runs the session** (the person at the tool, or working with an AI agent). It sets
   how much the agent does on its own, how often to show work, and how to write.
 
-Order of authority: the project's own decisions, then the director's taste, then the house layer, then the core.
+Order of authority: the project's own decisions, then the director's taste, then the defaults of each applicable
+house scope from narrowest to widest, then the core.
 Start small: a few lines you're sure of are enough, and an empty item is fine. The profile grows from the corrections
 you find yourself repeating: when you correct the same thing twice, the agent proposes a line for your profile, and you
 approve it, because a profile is its owner's to approve. Keep each half to about one page.

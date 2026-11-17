@@ -25,8 +25,11 @@ outcome.
    project's own, and they win (When layers disagree).
    If it has none, start one at the first director decision or the first version of anything (`book.py new`,
    [production book](process/production-book.md)), and say so.
-4. If the work is for a company with a folder in `houses/`, read its README, then the house files the stage needs. Only
-   when the brief or the project says so: a house never applies by default. If you can't ask, say what you assumed.
+4. If the brief or project says the work is for a company with a folder in `houses/`, read its README. If the work
+   is for a narrower part (a product line or sub-brand), read that part's README too. If it isn't clear whether that
+   part applies, ask; if you can't ask, apply only the wider scope and say so. A house never applies by default.
+   Defaults live only in each scope's README. Every other Markdown file in a house is one project's case: read it
+   when a rule links it or the work continues that project, and cite it as precedent, not a default.
 5. Route by stage below. Don't load every chapter: the core and all chapters come to about 18,000 tokens. A named section
    means that `## ` heading and its rules; a named rule means that one `### ` card. Neither means the whole file.
 
@@ -55,8 +58,9 @@ from the `id:` line under the rule's heading; never build one from the title.
 ## When layers disagree
 
 The project's own decisions win (the director's latest approved direction; older records are context), then the
-director's taste profile, then the house layer, then the core. Remarks a director made mid-project are evidence, not
-rulings: when one matters, present it as an open decision.
+director's taste profile, then the defaults of each applicable house scope from narrowest to widest, then the core.
+Cases are precedent, not defaults. Remarks a director made mid-project are evidence, not rulings: when one matters,
+present it as an open decision.
 
 ## Capturing a lesson
 

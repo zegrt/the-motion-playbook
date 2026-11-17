@@ -27,11 +27,12 @@ each person their own profile (`profiles/<name>.md`); none ship here.
 | `scripts/lint.py` | the cheap checks: rule ids and fields, links, private details, word budgets |
 | `kit/` | the production book kit |
 | `profiles/` | `_template.md`: copy it to write your own taste and way of working |
-| `houses/` | not included: your company's brand, characters and standards go here |
+| `houses/` | not included: defaults in scope READMEs, narrower parts in subfolders, other files as project cases |
 | `inbox/` | proposed changes and lessons, waiting for approval; see its README |
 
-When two layers disagree: the project's own decisions win, then the directing person's taste profile, then the house,
-then the core. Within a project, the director's latest approved direction beats older records; history is context.
+When two layers disagree: the project's own decisions win, then the directing person's taste profile, then the defaults
+of each applicable house scope from narrowest to widest, then the core. Cases are precedent, not defaults. Within a
+project, the director's latest approved direction beats older records; history is context.
 
 ```
   ┌───────────────────────────────┐
@@ -39,7 +40,9 @@ then the core. Within a project, the director's latest approved direction beats 
   ├───────────────────────────────┤
   │ the director's taste profile  │
   ├───────────────────────────────┤
-  │ the house layer (your studio) │
+  │ narrower house defaults       │
+  ├───────────────────────────────┤
+  │ wider house defaults          │
   ├───────────────────────────────┤
   │ core · craft · tools · process│  the base
   └───────────────────────────────┘
